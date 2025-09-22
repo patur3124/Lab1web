@@ -22,8 +22,39 @@
 # 5.Menamdahkan Hayperlink
 ![s6 html](https://github.com/user-attachments/assets/0dff2aa4-12d2-4fc0-8d04-b31486f12015)
 # 6.Soal
-<img width="621" height="130" alt="image" src="https://github.com/user-attachments/assets/d31d0726-f6ed-46d4-a01c-42e82f154411" />
-
+![po1](https://github.com/user-attachments/assets/016c90b6-30f2-430a-a251-5c5cbc16f997)
 # JAWABAN
       1. tidak
-      2.
+      2. perbedaan <p> dan <p align="center> jadi <p> adalah tag html 
+      untuk membuat paragraf sedangkan <p align="center"> adalah 
+      secara spesifik meratakan komponen paragraf tersebut ke tengah.
+      3. Alt (alternative text):
+      -Berfungsi sebagai teks alternatif yang mendeskripsikan gambar
+      -Ditampilkan ketika gambar gagal dimuat atau tidak dapat ditampilkan
+      -Sangat penting untuk aksesibilitas (screen reader untuk tunanetra)
+      -Wajib ada untuk validasi HTML yang baik
+      Contoh: <img src="kucing.jpg" alt="Seekor kucing orange sedang tidur">
+        Title:
+      -Memberikan informasi tambahan tentang gambar
+      -Muncul sebagai tooltip ketika mouse dihover di atas gambar 
+      -Bersifat opsional
+      -Tidak dibaca oleh screen reader secara default
+      Contoh: <img src="kucing.jpg" title="Foto kucing peliharaan saya">
+      4. Untuk menjaga proporsi gambar agar tidak terpotong atau terdistorsi:
+      -Gunakan hanya salah satu atribut (width ATAU height), biarkan browser menghitung yang lain secara otomatis
+      -Dengan CSS: Gunakan object-fit: contain untuk mempertahankan aspek rasio tanpa memotong gambar
+      -Dengan CSS: Gunakan object-fit: cover jika ingin mengisi seluruh area dengan kemungkinan pemotongan minimal
+      -Max-width: Gunakan max-width: 100% dan height: auto untuk responsive
+      Contoh: <img src="foto.jpg" style="width: 300px; height: auto;">
+      5. Penjelasan nilai atribut target pada tag <a>:
+      _blank: Membuka link di tab atau jendela baru
+      -Contoh: <a href="https://google.com" target="_blank">Google</a>
+      _self: Membuka link di tab/jendela yang sama (default behavior)
+      -Contoh: <a href="page2.html" target="_self">Halaman 2</a>
+      _top: Membuka link di jendela paling atas, menghapus semua frame
+      -Berguna ketika berada dalam struktur frame/iframe
+      _parent: Membuka link di frame parent (induk)
+     -Jika tidak ada parent frame, akan berperilaku seperti _self
+     -Berguna dalam struktur frameset atau iframe bertingkat
+
+ # TERIMAKASI
