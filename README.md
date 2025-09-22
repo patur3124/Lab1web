@@ -15,7 +15,15 @@
       agar lebih menarik aja
 # 4.Menyisipkan Gambar
 ![s4 html](https://github.com/user-attachments/assets/de597b8b-54cc-4848-92c1-6d301bb1d5a8)
+![s5 html](https://github.com/user-attachments/assets/ec346697-5bee-46f1-9079-75bdb08ae440)
 
       gambar yang di tampilkan apa adanya sesuai dengan ukuran
       yang saya ketik yaitu "300"
-# 5.
+# 5.Menamdahkan Hayperlink
+![s6 html](https://github.com/user-attachments/assets/0dff2aa4-12d2-4fc0-8d04-b31486f12015)
+# 6.Soal
+<img width="621" height="130" alt="image" src="https://github.com/user-attachments/assets/d31d0726-f6ed-46d4-a01c-42e82f154411" />
+
+# JAWABAN
+      1. tidak
+      2.
